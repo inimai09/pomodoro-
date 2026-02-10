@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer ⏱️</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video id="bg-video" muted loop playsinline>
+    <source src="assets/chill-japan.mp4" type="video/mp4">
+    </video>
+    
+
+
+    <audio id="click-sound" src="assets/universfield-computer-mouse-click-352734.mp3"></audio>
+    <audio id="bg-music" loop></audio>
+
+    <div class="music-player">
+        <button id="prev-song">⏮️</button>
+        <button id="play-pause">▶️</button>
+        <button id="next-song">⏭️</button>
+        <span id="song-name">No song playing</span>
+    </div>
+
+    <div class="app">
+        <img src="assets/logo.png" alt="Pomodoro Logo" class="logo">
+        <h2 id="mode">Focus</h2>
+        <div id="timer">25:00</div>
+
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
