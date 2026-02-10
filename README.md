@@ -10,7 +10,7 @@ Looping video background
 
 Everything is interactive: start, pause, reset, next/previous songs, and the video syncs with the music.
 
-Technologies Used
+# Technologies Used
 
 HTML5
 
