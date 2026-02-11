@@ -14,7 +14,6 @@ function formatTime(sec) {
   const s = sec % 60;
   return `${m.toString().padStart(2,"0")}:${s.toString().padStart(2,"0")}`;
 }
-
 timerDisplay.textContent = formatTime(totalTime);
 
 startBtn.addEventListener("click", () => {
