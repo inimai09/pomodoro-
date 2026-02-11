@@ -19,3 +19,7 @@ CSS3
 JavaScript (Vanilla JS)
 
 HTML5 <video> & <audio> elements
+
+# Here is a preview of the Pomodoro Timer application:
+<img width="946" height="493" alt="image" src="https://github.com/user-attachments/assets/6001ffd7-c512-487c-ab6b-f82a00f51e1f" />
+
