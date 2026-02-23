@@ -16,7 +16,7 @@ HTML5
 
 CSS3
 
-JavaScript (Vanilla JS)
+JavaScript
 
 HTML5 <video> & <audio> elements
 
