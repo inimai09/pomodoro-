@@ -47,6 +47,12 @@ body {
     margin-top: 0px;
     font-size: 25px;
 }
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+    margin-top: 20px;
+}
 .buttons button {
     background-color: #d4a7e8;
     border: none;
@@ -104,7 +110,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
+    color: white;
     text-align: center;
 }
 #bg-video {
